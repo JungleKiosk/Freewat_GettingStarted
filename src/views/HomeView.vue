@@ -36,20 +36,22 @@ export default {
                             Landscape:
                             <a href="https://corsi.unibo.it/2cycle/LandscapePlanningManagement" target="_blank"><span
                                     class="txt_primary color_txt_link"> PROGESA</span> </a><br>
-                            The study program contribute to the pursuit of the <br><span
-                                class="txt_primary color_txt_link" target="_blank"> UN 2030 Agenda for
-                            </span>
+                            The study program contribute to the pursuit of the <br>
                             <a href="https://www.un.org/sustainabledevelopment/" target="_blank"><span
-                                    class="txt_primary color_txt_link" target="_blank">Sustainable
+                                    class="txt_primary color_txt_link" target="_blank">UN 2030 Agenda for Sustainable
                                     Development Goals.</span> </a> <br>
                             I have a passion for the environment and for technology.<br>
                         </p>
                         <hr>
                         <p>
-                            In May 2024  <a href="https://ec.europa.eu/eurostat"><span
-                                    class="txt_primary color_txt_link">Eurostat</span></a> to
-                            carry out
-                            data collection for the <span class="txt_primary">LUCAS2022</span> project.
+                            From May 9 to 17 2024 I participated in the <a href="http://www.freewat.eu/"
+                                target="_blank"><span class="txt_primary color_txt_link">FREEWAT</span></a> online
+                            course for groundwater resource modeling through the plugin <a
+                                href="https://plugins.qgis.org/plugins/freewat/" target="_blank"><span
+                                    class="txt_primary color_txt_link">FREEWAT-Q3</span></a> for QGIS held by <a
+                                href="http://www.freewat.eu/partners/scuola-superiore-santanna-sssa"
+                                target="_blank"><span class="txt_primary color_txt_link">Scuola
+                                    Universitaria Superiore di Pisa.</span></a>
                         </p>
                         <div class="col-12 text-center mb-3">
                             <a href="https://ec.europa.eu/eurostat/web/main/home"><img class="eurostat_logo"
@@ -58,17 +60,16 @@ export default {
 
 
                         <p>
-                            On this website you will find the explanation of how to optimise resources, time and keep
-                            track of ecological impact at work as <span class="txt_primary">LUCAS Detector</span>;
-                            by the use of open source software.
+                            On this site you can get started with FREEWAT-Q3 through a video tutorial that will show you
+                            how to install the plugin and how to build an initial numerical model.
                         </p>
                         <p>
-                            If you want to know more about the LUCAS project click the button below.
+                            If you want to know more about the FREEWAT project click the button below.
                         </p>
 
                         <div class="link_lucas text-center py-2">
-                            <a href="https://ec.europa.eu/eurostat/web/lucas"
-                                class="btn text-light zoom-effect lucas_link" target="_blank"><strong>LUCAS
+                            <a href="http://www.freewat.eu/" class="btn text-light zoom-effect lucas_link"
+                                target="_blank"><strong>FREEWAT
                                     website</strong></a>
                         </div>
                     </div>
@@ -81,84 +82,8 @@ export default {
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="row">
-                    <div class="col-12" style="height: 50px;"></div>
-                </div> -->
-
             </div>
-
-            <div class="container">
-                <div class="row text-center">
-                    <div class="text-center mb-4">
-                        <h1>my <span class=" txt_title_thin">STACK</span> </h1>
-                    </div>
-                    <div class="col-12 col-lg-3 mb-3">
-                        <div class="card bg-dark text-white rounded-4">
-                            <div class="text-center py-3">
-                                <img class="text-center img_card" src="../assets/img/logo/qgis.png" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">QGIS</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-3 mb-3">
-                        <div class="card bg-dark text-white rounded-4">
-                            <div class="text-center py-3">
-                                <img class="text-center img_card" src="../assets/img/logo/python.svg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Python</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-3 mb-3">
-                        <div class="card bg-dark text-white rounded-4">
-                            <div class="text-center py-3">
-                                <img class="text-center img_card" src="../assets/img/logo/ge.png" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Google Earth Pro</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-3 mb-3">
-                        <div class="card bg-dark text-white rounded-4">
-                            <div class="text-center py-3">
-                                <img class="text-center img_card" src="../assets/img/logo/gmaps.svg" alt="">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">Google My Maps</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center my-2">
-                <div class="col-12 text-center ">
-                    <h3>Estimated technical and logistical requirements</h3>
-                </div>
-                <div class="col-4 col-lg-6 req_list font-monospace text-center py-4">
-                    <span class="py-2 "><span class="txt_title_thin">SHORTEST</span> route / </span>
-                    <span class="py-2"><span class="txt_title_thin">VIABILITY</span> by car / </span>
-                    <span class="py-2"><span class="txt_title_thin">WALKING</span> distance / </span>
-                    <span class="py-2"><span class="txt_title_thin"> TRAVEL</span> time / </span>
-                    <span class="py-2">daily <span class="txt_title_thin">CONSUPTION</span> / </span>
-                    <span class="py-2"><span class="txt_title_thin">ECOLOGICAL</span> footprint</span>
-                </div>
-            </div>
-
-            <CutterPage></CutterPage>
-
-
-
-
-
         </section>
-
-
     </main>
     <Footer></Footer>
 </template>
