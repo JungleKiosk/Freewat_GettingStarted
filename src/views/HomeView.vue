@@ -46,7 +46,7 @@ export default {
                         </p>
                         <hr>
                         <p>
-                            In April 2022 I accepted an assignment from <a href="https://ec.europa.eu/eurostat"><span
+                            In May 2024  <a href="https://ec.europa.eu/eurostat"><span
                                     class="txt_primary color_txt_link">Eurostat</span></a> to
                             carry out
                             data collection for the <span class="txt_primary">LUCAS2022</span> project.
