@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "name": "Install and Setting",
+        "tutorial": "tutorial 0",
+        "desc_card": "In this video tutorial you will learn how to install FREEWAT in QGIS and how to organize the project work directrory. In addition, you will be able to perform a first simple case of single-layer groundwater modeling",
+        "image": ".src/assets/img/0_plugin_freewat.png",
+        "environment": "Vue 3 + Vite",
+        "paks": "",
+        "stack": "HTML - CSS - JS",
+        "link": "https://junglekiosk.github.io/HelloVue/",
+        "data": "Jun 07, 2023",
+        "desc": "Build a modern, responsive web application using the Vite framework and the Vue.js JavaScript framework. The main goal is to leverage the speed and efficiency of Vite to develop an interactive and responsive user interface using Vue.js as a library for state management and component creation."
+    },
+    {
+        "id": 2,
+        "name": "LUCAS 2022",
+        "image": "assets/img/projects/lucas_2022.png",
+        "environment": "QGIS - Google My Maps - Google Earth Pro",
+        "paks": "",
+        "stack": "Python",
+        "link": "https://junglekiosk.github.io/LUCAS_2022/",
+        "data": "Jun 18, 2023",
+        "desc": "This project shows how to optimize data collection work for the Eurostat Land Use and Coverage Area frame Survey project with QGIS & Python. Through an iteration of the digitization of the routes to be covered and the relative geographical points, I created a quick access and mobile responsive working map in Google My Maps, which guaranteed ease of access and movement to crucial points, improving efficiency, reducing consumption and environmental impact, minimizing costs and improving work management."
+    },
+    {
+        "id": 3,
+        "name": "VueLeaflet",
+        "image": ".src/assets/img/projects/vue_leaflet.png",
+        "environment": "Vue 3 + Vite",
+        "paks": "",
+        "stack": "HTML - CSS - JS",
+        "link": "https://junglekiosk.github.io/VueLeaflet/",
+        "data": "Jun 11, 2023",
+        "desc": "Leveraging the power of Vue.js and Leaflet, I created an interactive map enriched with image placeholders. This project opens the door to an immersive and intuitive visualization of geographical data, offering a dynamic solution to represent information and places in an attractive way."
+    },
+    {
+        "id": 4,
+        "name": "Chestnut Zoning",
+        "image": "src/assets/img/projects/chestnut_zoning.png",
+        "environment": "QGIS - Google Earth Pro",
+        "paks": "",
+        "stack": "Python",
+        "link": "https://junglekiosk.github.io/QGIS_zoning/",
+        "data": "Jun 13, 2023",
+        "desc": "This project aims to optimize chestnut cultivation through the creation of a zonal prescription map. Taking advantage of the key variables of altitude, slope slope and sun exposure, I have delineated specific areas for optimal cultivation. Through one iteration in Python, I calculated the principal contour lines precisely, considering 100-meter intervals. The objective is targeted management of resources, promotion of forest health and ecosystem services, maximization of production and support for the local market through the repopulation of marginal territories."
+    },
+    {
+        "id": 5,
+        "name": "Map Soil Texture",
+        "image": "src/assets/img/projects/usda_py.png",
+        "environment": "QGIS - Google Earth Pro",
+        "paks": "",
+        "stack": "Python - RStudio",
+        "link": "https://junglekiosk.github.io/QGIS_SoilTexture/",
+        "data": "Jun 18, 2023",
+        "desc": "Through the reconstruction of the texture triangle in Python, get a detailed view of the soil composition. The objective is to identify and map the different texture classes – sand, silt and clay – present in the different areas of the territory. This approach will allow to better understand their distribution and characterization, providing crucial information for the optimal management of agricultural and environmental areas. Accurate mapping of texture values will enable targeted planning and informed decision making to promote crop efficiency and soil resource conservation."
+    },
+    {
+        "id": 6,
+        "name": "Soil Degradation",
+        "image": "src/assets/img/projects/soil_deg.png",
+        "environment": "QGIS - Google Earth Engine",
+        "paks": "",
+        "stack": "JS - Python - RStudio ",
+        "link": "https://junglekiosk.github.io/QGIS_SoilDegradation/",
+        "data": "Jun 22, 2023",
+        "desc": "This project focuses on the delicate coastal area of the Comacchio valleys in the Ravenna area, addressing a series of interconnected degradation phenomena. Soil subsidence, marine water intrusion and reduced fertility due to the accumulation of insoluble salts threaten agricultural sustainability. Through an in-depth analysis of the territory, I aim to optimize the use of underground water resources, preserving groundwater freshwater and promoting ecologically sustainable agricultural practices. This project aims to help mitigate the impacts of soil degradation, ensuring the resilience of agricultural communities and the conservation of the coastal environment."
+    },
+    {
+        "id": 7,
+        "name": "Remote Sensing",
+        "image": "src/assets/img/projects/rs.png",
+        "environment": "QGIS",
+        "paks": "",
+        "stack": "SCP",
+        "link": "https://junglekiosk.github.io/QGIS_RS_NDVI_CIgreen/",
+        "data": "Jul 10, 2023",
+        "desc": "From searching and selecting images based on specific objectives, through to evaluating image accuracy, consideration of cloud cover and shadow conditions become essential. In the context of this methodology, the choice of images from the USGS archives is guided by the time period of the analysis to ensure consistency. The effectiveness of this process extends to the pre-processing of the images, up to the application of vegetation indices calculated from the images satellites, providing valuable data for the analysis of the territory, the monitoring of environmental changes and the evaluation of the health of plant resources."
+    }
+]
