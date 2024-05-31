@@ -25,8 +25,8 @@ export default {
 <template>
   <div class="container p-5">
     <div class="row align-items-center justify-content-center">
-      <div class="col-lg-12 text-center">
-        <h1 class="">{{ project.name }}</h1>
+      <div class="col-lg-12">
+        <h1 class="text-center">{{ project.name }}</h1>
         <p class="txt_proj" v-html="project.desc_tutorial"></p>
         <div class="row py-5 justify-content-center">
           <div class="col-lg-3 col-md-4 col-sm-6" v-for="tutorial in project.tutorials" :key="tutorial.id">

@@ -4,7 +4,7 @@
         "name": "Install and Setting",
         "desc_card": "In this video tutorial you will learn how to install FREEWAT in QGIS and how to organize the project work directory.",
         "image": "0_plugin_freewat.png",
-        "desc_tutorial": "<p>Recommendations before starting:</p><ul><li>using QGIS version 3.28 to 3.32 -> the version used in the video you are watching is 3.34.6 as a test</li><li>remember to name ALL files with only literal characters and no spaces but with underscore - example <code>model_domain_T0.shp</code></li><li>create a project directory in (C:) -> example <code>C:\\freewat\\mf0</code></li></ul>",
+        "desc_tutorial": "<h4>This tutorial has been successfully tested on WINDOWS 10 and WINDOWS 11, using the QGIS versions 3.28 through 3.32</h4><code>The QGIS version used in the video is 3.34.6 as a test</code><br><br><p>Recommendations before starting:</p><ul><li>using QGIS version 3.28 to 3.32 -> the version used in the video you are watching is 3.34.6 as a test</li><li>remember to name ALL files with only literal characters and no spaces but with underscore - example <code>model_domain_T0.shp</code></li><li>create a project directory in (C:) -> example <code>C:\\freewat\\mf0</code></li></ul>",
         "tutorials": [
             {
                 "id": 0,
