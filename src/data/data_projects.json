@@ -24,26 +24,25 @@
             },
             {
                 "id": 2,
-                "img_tutorial": "0_plugin_freewat.png",
+                "img_tutorial": "tutorials/t0/t0_model.png",
                 "title": "3.Create Model",
                 "desc": "How to organize the project work directory.",
                 "video_url": ""
             },
             {
                 "id": 3,
-                "img_tutorial": "0_plugin_freewat.png",
+                "img_tutorial": "tutorials/t0/t0_run.png",
                 "title": "4.Run Model",
                 "desc": "How to organize the project work directory.",
                 "video_url": ""
             },
             {
                 "id": 4,
-                "img_tutorial": "0_plugin_freewat.png",
+                "img_tutorial": "tutorials/t0/t0_tif.png",
                 "title": "5.View Outputs",
                 "desc": "How to organize the project work directory.",
                 "video_url": ""
             }
-            
         ]
     }
 ]

@@ -32,14 +32,14 @@ export default {
       <div class="col-lg-12">
         <h1 class="text-center mb-5 txt_title_thin">{{ project.name }}</h1>
         <p class="text-center">{{ project.num_tutorial }}</p>
-        <p class="text-center">It is recommended before watching the Tutoial videos read the recommendations below</p>
+        <p class="text-center">It is recommended before watching the Tutoial videos read the recommendations below 👇</p>
         <div class="row py-5 justify-content-center">
           <div class="col-12 col-lg-4 col-md-4 col-sm-6 mb-5" v-for="tutorial in project.tutorials" :key="tutorial.id">
             <div class="card text-left rounded-5 bg-dark text_cards shadow_cards_t">
               <div class="card-body">
                 <h4 class="card-title">{{tutorial.title}}</h4>
                 <a :href="tutorial.video_url" target="_blank" class="btn text-light zoom-effect lucas_link mb-3">Watch Video</a>
-                <img :src="getImagePath(tutorial.img_tutorial)" alt="tutorial image" class="img_cards rounded-5" />
+                <img :src="getImagePath(tutorial.img_tutorial)" alt="tutorial image" class="img_cards rounded-3" />
                 <!-- <p class="card-text">Body</p> -->
               </div>
             </div> 
