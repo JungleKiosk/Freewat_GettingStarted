@@ -43,8 +43,8 @@ export default {
                 <div class="row py-5 justify-content-center">
                     <div :to="`/project/${project.id}`" class="col-lg-8 col-md-4 col-sm-6" v-for="project in projects"
                         :key="project.id" @click="router.push(`/project/${project.id}`)">
-                        <div class="card my-4">
-                            <img :src="getImagePath(project.image)" alt="project image" class="img_cards"/>
+                        <div class="card rounded-5 my-4">
+                            <img :src="getImagePath(project.image)" alt="project image" class="img_cards rounded-top-5"/>
                             <div class="card-body">
                                 <h4 class="card-title">{{ project.tutorial }}</h4>
                                 <h1 class="card-title">{{ project.name }}</h1>

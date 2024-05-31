@@ -1,94 +1,77 @@
-<script setup>
+<script>
+import { ref } from "vue";
+import { useRoute } from "vue-router";
+import projectsData from "../data/data_projects.json";
 
-
-import { useRoute } from 'vue-router';
-import { ref, onBeforeMount } from "vue";
-import projects from "../data/data_projects.json"
-
-const project = ref(null)
-const route = useRoute()
-const { id } = route.params;
-
-// console.log(route.params)
-
-onBeforeMount(() => {
-    project.value = projects.find(c => c.id === parseInt(id))
-
-})
-
-
+export default {
+  name: "ProjectsView",
+  setup() {
+    const route = useRoute();
+    const projectId = route.params.id;
+    const project = ref(projectsData.find(p => p.id === parseInt(projectId)));
+    
+    return {
+      project,
+    };
+  },
+  methods: {
+    getImagePath: function (name) {
+      return new URL(`../assets/img/${name}`, import.meta.url).href;
+    },
+  },
+};
 </script>
 
-
-
 <template>
-    <div class="container p-5">
-        <div class="row">
-            <h1 class="txt_title_proj">{{ project.name }}</h1>
-            <div class="col-lg-6 align-items-center">
-                <div class="col-lg-12" v-if="project">
-                    <br>
-                    <h4>Start Date:</h4>
-                    <h2>{{ project.data }}</h2>
-                    <button class="my-3 btn btn_btlink_proj pulse-heart">
-                        <a class="link_proj" v-if="project.link" :href="project.link" target="_blank">Go to project</a>
-                    </button>
-                </div>
-                <div v-else>
-                    <h1>Not Found</h1>
-                </div>
+  <div class="container p-5">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-12 text-center">
+        <h1 class="txt_title">{{ project.name }}</h1>
+        <p class="txt_proj">{{ project.desc_card }}</p>
+        <div class="row py-5 justify-content-center">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            v-for="tutorial in project.tutorials"
+            :key="tutorial.id"
+          >
+            <div class="project-card p-2 my-2 rounded-4 d-flex flex-column align-items-center justify-content-center">
+              <img :src="getImagePath(project.image)" alt="project image" class="img-fluid rounded-4 mb-2"/>
+              <h4 class="mb-1">{{ tutorial.title }}</h4>
+              <p class="text-center">{{ tutorial.desc }}</p>
+              <a :href="tutorial.video_url" target="_blank" class="btn btn-primary">Watch Video</a>
             </div>
-
-            <div class="col-lg-6" v-if="project">
-                <p class="txt_desc"> {{ project.desc }}</p>
-
-
-
-            </div>
-            <div v-else>
-                <h1>Not Found</h1>
-            </div>
-
-
+          </div>
         </div>
-
-
+      </div>
     </div>
+  </div>
 </template>
 
-
-
-
-
-<style scoped>
-.txt_title_proj {
-    color: #44bc84;
-    font-size: 80px;
+<style>
+.project-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
-.txt_desc {
-    font-size: 25px;
+.project-card img {
+  max-height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
-
-.btn_btlink_proj{
-    background-color: #44bc84;
+.project-card h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
-.link_proj {
-    color:#010e16;
-    font-weight: 900;
-    text-decoration: none;
-}
-
-.pulse-heart {
-  animation: pulse 3s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  25% {
-    transform: scale(1.1);
-  }
+.project-card p {
+  font-size: 1rem;
+  color: #6c757d;
+  white-space: pre-wrap; /* Gestisce correttamente i ritorni a capo nel testo */
 }
 </style>
