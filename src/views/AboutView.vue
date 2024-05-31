@@ -42,23 +42,28 @@ export default {
                                     Development Goals.</span> </a> <br>I have a passion for the environment and for
                             technology.<br>
                         </p>
-                        <div class="col-12 col-lg-4 d-flex flex-wrap goals mx-4 col_goals_onu">
-                            <div class="col-3 text-center p-2" v-for="goal in goalsArray" :key="goal.img">
-                                <a :href="goal.link" target="_blank">
-                                    <img class="rounded-4 zoom-effect-goals" :src="getImagePath(goal.img)" alt="Goal Image">
-                                </a>
-                            </div>
-                        </div>
-                        <hr>
-                        <p>
-                            I'm working on the <a href="https://prima-med.org/what-we-do/nexus/" target="_blank"><span
-                                    class="txt_primary color_txt_link">PRIMAProgram</span> </a> <a href="https://prima-nexus-ness.org/" target="_blank"><span
-                                    class="txt_primary color_txt_link">NEXUS-NESS</span> </a> project as a research fellow in hydrogeological modeling and as a social media manager.</p>
-                        <div class="col-12">
-                            <img src="../assets/img/join.png" alt="">
-                        </div>
+
 
                     </div>
+                    <!-- qui -->
+                    <div class="col-12 col-lg-4 d-flex flex-wrap goals mx-4 col_goals_onu mb-5">
+                        <div class="col-3 text-center p-2" v-for="goal in goalsArray" :key="goal.img">
+                            <a :href="goal.link" target="_blank">
+                                <img class="rounded-4 zoom-effect-goals" :src="getImagePath(goal.img)" alt="Goal Image">
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <p>
+                        I'm working on the <a href="https://prima-med.org/what-we-do/nexus/" target="_blank"><span
+                                class="txt_primary color_txt_link">PRIMAProgram</span> </a> <a
+                            href="https://prima-nexus-ness.org/" target="_blank"><span
+                                class="txt_primary color_txt_link">NEXUS-NESS</span> </a> project as a research fellow
+                        in hydrogeological modeling and social media manager.</p>
+                    <div class="col-12">
+                        <img class="img_card rounded-4" src="../assets/img/join.png" alt="">
+                    </div>
+
 
                 </div>
             </div>
