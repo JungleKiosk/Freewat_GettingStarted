@@ -44,7 +44,7 @@ export default {
                     <div :to="`/project/${project.id}`" class="col-lg-8 col-md-4 col-sm-6" v-for="project in projects"
                         :key="project.id" @click="router.push(`/project/${project.id}`)">
                         <div class="card my-4">
-                            <img class="card-img-top" :src="getImagePath(goal.img)" alt="">
+                            <img :src="getImagePath(project.image)" alt="project image" class="img_cards"/>
                             <div class="card-body">
                                 <h4 class="card-title">{{ project.tutorial }}</h4>
                                 <h1 class="card-title">{{ project.name }}</h1>
@@ -63,4 +63,8 @@ export default {
     <Footer></Footer>
 </template>
 
-<style></style>
+<style scoped>
+.img_cards{
+    width: 100%;
+}
+</style>

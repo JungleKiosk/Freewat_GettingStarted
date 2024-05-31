@@ -4,7 +4,7 @@
         "name": "Install and Setting",
         "tutorial": "tutorial 0",
         "desc_card": "In this video tutorial you will learn how to install FREEWAT in QGIS and how to organize the project work directrory. In addition, you will be able to perform a first simple case of single-layer groundwater modeling",
-        "image": ".src/assets/img/0_plugin_freewat.png",
+        "image": "0_plugin_freewat.png",
         "environment": "Vue 3 + Vite",
         "paks": "",
         "stack": "HTML - CSS - JS",
