@@ -16,20 +16,18 @@
                 "title": "Organizing the project directory",
                 "desc": "How to organize the project work directory.",
                 "video_url": "https://junglekiosk.github.io/HelloVue/"
-            }
-        ]
-    },
-    {
-        "id": 1,
-        "name": "LUCAS 2022",
-        "desc_card": "This project shows how to optimize data collection work for the Eurostat Land Use and Coverage Area frame Survey project with QGIS & Python.",
-        "image": "lucas_2022.png",
-        "tutorials": [
+            },
             {
-                "id": 0,
-                "title": "Optimizing data collection",
-                "desc": "Optimize data collection work for the Eurostat survey.",
-                "video_url": "https://junglekiosk.github.io/LUCAS_2022/"
+                "id": 2,
+                "title": "Installing FREEWAT",
+                "desc": "Learn how to install FREEWAT in QGIS.",
+                "video_url": "https://junglekiosk.github.io/HelloVue/"
+            },
+            {
+                "id": 3,
+                "title": "Organizing the project directory",
+                "desc": "How to organize the project work directory.",
+                "video_url": "https://junglekiosk.github.io/HelloVue/"
             }
         ]
     }

@@ -34,12 +34,15 @@ export default {
             v-for="tutorial in project.tutorials"
             :key="tutorial.id"
           >
-            <div class="project-card p-2 my-2 rounded-4 d-flex flex-column align-items-center justify-content-center">
-              <img :src="getImagePath(project.image)" alt="project image" class="img-fluid rounded-4 mb-2"/>
-              <h4 class="mb-1">{{ tutorial.title }}</h4>
-              <p class="text-center">{{ tutorial.desc }}</p>
+          <div class="card text-left rounded-5">
+            <img :src="getImagePath(project.image)" alt="project image" class="img_cards rounded-top-5"/>
+            <div class="card-body">
               <a :href="tutorial.video_url" target="_blank" class="btn btn-primary">Watch Video</a>
+              <h4 class="card-title">Title</h4>
+              <p class="card-text">Body</p>
             </div>
+          </div>
+           
           </div>
         </div>
       </div>
@@ -47,31 +50,8 @@ export default {
   </div>
 </template>
 
-<style>
-.project-card {
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  padding: 20px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.project-card img {
-  max-height: 150px;
-  object-fit: cover;
-  margin-bottom: 10px;
-}
-.project-card h4 {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.project-card p {
-  font-size: 1rem;
-  color: #6c757d;
-  white-space: pre-wrap; /* Gestisce correttamente i ritorni a capo nel testo */
+<style scoped>
+.img_cards{
+    width: 100%;
 }
 </style>
