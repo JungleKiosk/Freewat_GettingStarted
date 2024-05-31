@@ -10,14 +10,14 @@
         "tutorials": [
             {
                 "id": 0,
-                "img_tutorial": "0_plugin_freewat.png",
+                "img_tutorial": "tutorials/t0/t0_install.png",
                 "title": "1.Install FREEWAT",
                 "desc": "Learn how to install FREEWAT in QGIS.",
                 "video_url": ""
             },
             {
                 "id": 1,
-                "img_tutorial": "0_plugin_freewat.png",
+                "img_tutorial": "tutorials/t0/t0_wd.png",
                 "title": "2.Work Directory",
                 "desc": "How to organize the project work directory.",
                 "video_url": ""
