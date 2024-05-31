@@ -1,25 +1,49 @@
 [
     {
         "id": 0,
-        "name": "Install and Setting",
-        "desc_card": "In this video tutorial you will learn how to install FREEWAT in QGIS and how to organize the project work directory.",
+        "name": "Install & Setting",
+        "num_tutorial": "Tutorial 0",
+        "desc_card": "In this video tutorials you will learn how to install FREEWAT in QGIS and how to organize the project work directory.",
         "image": "0_plugin_freewat.png",
-        "desc_tutorial": "<h4>This tutorial has been successfully tested on WINDOWS 10 and WINDOWS 11, using the QGIS versions 3.28 through 3.32</h4><code>⚠️ The QGIS version used in the videos is 3.34.6 as a test 🪲</code><br><br><p>Recommendations before starting:</p><ul><li>Before starting the installation procedure make sure QGIS is NOT running on your machine</li><li>remember to name ALL files with only literal characters and no spaces but with underscore - example <code>model_domain_T0.shp</code></li><li>create a project directory in (C:) -> example <code>C:\\freewat\\mf0</code></li></ul>",
+        "recommendations": "<h4>This tutorial has been successfully tested on WINDOWS 10 and WINDOWS 11, using the QGIS versions 3.28 through 3.32</h4><code>⚠️ The QGIS version used in the videos is 3.34.6 as a test 🪲</code><br><br><p>Recommendations <code>BEFORE</code> you begin, take notes to <code>AVOID</code> errors:</p><ul><li>Before starting the installation procedure make sure <code> QGIS is NOT running on your machine</code></li><li>When you start the installation process you will see your machine's <code>CMD run</code>, Do NOT open any windows <code>!!!Just WAIT!!!</code></li><li>If a <code>PROXY</code> window is displayed at the end of the installation, absolutely <code>DO NOT</code> check this box.</li><li>remember to name ALL files with only literal characters and no spaces but with underscore - example <code>model_domain_T0.shp</code></li><li>create a project directory in (C:) -> example <code>C:\\freewat\\mf0</code></li></ul>",
+        "aims_tutorial": "<p>This tutorial aims to introduce the development and implementation of a model of groundwater flow using real data.<br> The specific objectives of this tutorial are:</p><ul><li>Identify the processes that control groundwater flow through the conceptual model definition;</li><li>Implement a numerical model to simulate the hydrodynamics of groundwater groundwater under transient conditions;</li><li>Verification of piezometric level lowering over time due to the presence of the pumping well.</li></ul>",
         "tutorials": [
             {
                 "id": 0,
-                "img_tutorial": "",
-                "title": "Installing FREEWAT",
+                "img_tutorial": "0_plugin_freewat.png",
+                "title": "1.Install FREEWAT",
                 "desc": "Learn how to install FREEWAT in QGIS.",
                 "video_url": ""
             },
             {
                 "id": 1,
-                "img_tutorial": "1_organize_directory.png",
-                "title": "Organizing the project directory",
+                "img_tutorial": "0_plugin_freewat.png",
+                "title": "2.Work Directory",
+                "desc": "How to organize the project work directory.",
+                "video_url": ""
+            },
+            {
+                "id": 2,
+                "img_tutorial": "0_plugin_freewat.png",
+                "title": "3.Create Model",
+                "desc": "How to organize the project work directory.",
+                "video_url": ""
+            },
+            {
+                "id": 3,
+                "img_tutorial": "0_plugin_freewat.png",
+                "title": "4.Run Model",
+                "desc": "How to organize the project work directory.",
+                "video_url": ""
+            },
+            {
+                "id": 4,
+                "img_tutorial": "0_plugin_freewat.png",
+                "title": "5.View Outputs",
                 "desc": "How to organize the project work directory.",
                 "video_url": ""
             }
+            
         ]
     }
 ]
