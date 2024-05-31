@@ -40,7 +40,7 @@ export default {
                 <div class="row justify-content-center">
                     <div :to="`/project/${project.id}`" class="col-12 col-lg-6 col-md-4" v-for="project in projects"
                         :key="project.id" @click="router.push(`/project/${project.id}`)">
-                        <div class="card rounded-5 my-4 bg-dark text_cards">
+                        <div class="card rounded-5 my-4 bg-dark text_cards shadow_cards">
                             <div class="card-body">
                                 <h5 class="text-center">{{ project.num_tutorial }}</h5>
                                 <h1 class="card-title">{{ project.name }}</h1>

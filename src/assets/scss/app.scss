@@ -1,4 +1,3 @@
-
 @use './../../../node_modules/bootstrap/scss/bootstrap.scss';
 
 @use "./partials/_var.scss" as *;
@@ -48,24 +47,36 @@ a {
 
 .cursor-light {
     position: fixed;
-    width: 20px; /* Larghezza della luce */
-    height: 20px; /* Altezza della luce */
-    border-radius: 50%; /* Rendi la luce circolare */
-    background-color: #01fff7; /* Colore della luce verde neon */
-    pointer-events: none; /* Assicura che l'elemento non intercetti gli eventi del mouse */
-    mix-blend-mode: screen; /* Mescola la luce con lo sfondo in modo che sembri più luminosa */
-    z-index: 9999; /* Assicura che la luce sia sopra gli altri elementi */
-    transition: transform 0.5s ease, opacity 0.5s ease, box-shadow 0.5s ease; /* Aggiungi una transizione per un effetto più fluido */
-    opacity: 0; /* Imposta l'opacità iniziale a 0 */
-    /* filter: blur(5px);  *//* Aggiungi un effetto di sfocatura */
-    box-shadow: 0 0 20px 15px #00fff7; /* Aggiungi un'ombra luminosa */
-  }
-  
-  .cursor-light.hidden {
-    opacity: 1; /* Quando il cursore è fermo, rendi il pallino completamente visibile */
-  }
+    width: 20px;
+    /* Larghezza della luce */
+    height: 20px;
+    /* Altezza della luce */
+    border-radius: 50%;
+    /* Rendi la luce circolare */
+    background-color: #01fff7;
+    /* Colore della luce verde neon */
+    pointer-events: none;
+    /* Assicura che l'elemento non intercetti gli eventi del mouse */
+    mix-blend-mode: screen;
+    /* Mescola la luce con lo sfondo in modo che sembri più luminosa */
+    z-index: 9999;
+    /* Assicura che la luce sia sopra gli altri elementi */
+    transition: transform 0.5s ease, opacity 0.5s ease, box-shadow 0.5s ease;
+    /* Aggiungi una transizione per un effetto più fluido */
+    opacity: 0;
+    /* Imposta l'opacità iniziale a 0 */
+    /* filter: blur(5px);  */
+    /* Aggiungi un effetto di sfocatura */
+    box-shadow: 0 0 20px 15px #00fff7;
+    /* Aggiungi un'ombra luminosa */
+}
 
-  .zoom-effect {
+.cursor-light.hidden {
+    opacity: 1;
+    /* Quando il cursore è fermo, rendi il pallino completamente visibile */
+}
+
+.zoom-effect {
     transition: transform 0.2s ease-in-out;
     transform-origin: center center;
 }
@@ -81,11 +92,11 @@ a {
 }
 
 
-.bg_primary{
+.bg_primary {
     background-color: $primary;
 }
 
-.bg_tulip_tree{
+.bg_tulip_tree {
     background-color: $clr_tulip_tree;
 }
 
@@ -132,4 +143,13 @@ a {
 .btn_arrow:hover {
     background-color: $primary;
     color: $light;
+}
+
+
+.shadow_cards {
+    box-shadow: rgb(185, 253, 255) 0px 5px 15px;
+}
+
+.shadow_cards_t {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
