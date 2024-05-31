@@ -34,12 +34,9 @@ export default {
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-12 text-center">
                 <h1 class="txt_title">Tutorials</h1>
-
                 <p class="txt_proj">
                     Click on a tutorials, go to the summary and view the video
                 </p>
-
-
                 <div class="row py-5 justify-content-center">
                     <div :to="`/project/${project.id}`" class="col-lg-8 col-md-4 col-sm-6" v-for="project in projects"
                         :key="project.id" @click="router.push(`/project/${project.id}`)">

@@ -4,30 +4,21 @@
         "name": "Install and Setting",
         "desc_card": "In this video tutorial you will learn how to install FREEWAT in QGIS and how to organize the project work directory.",
         "image": "0_plugin_freewat.png",
+        "desc_tutorial": "🦆🐸🐸🐸🦆",
         "tutorials": [
             {
                 "id": 0,
+                "img_tutorial": "",
                 "title": "Installing FREEWAT",
                 "desc": "Learn how to install FREEWAT in QGIS.",
-                "video_url": "https://junglekiosk.github.io/HelloVue/"
+                "video_url": ""
             },
             {
                 "id": 1,
+                "img_tutorial": "1_organize_directory.png",
                 "title": "Organizing the project directory",
                 "desc": "How to organize the project work directory.",
-                "video_url": "https://junglekiosk.github.io/HelloVue/"
-            },
-            {
-                "id": 2,
-                "title": "Installing FREEWAT",
-                "desc": "Learn how to install FREEWAT in QGIS.",
-                "video_url": "https://junglekiosk.github.io/HelloVue/"
-            },
-            {
-                "id": 3,
-                "title": "Organizing the project directory",
-                "desc": "How to organize the project work directory.",
-                "video_url": "https://junglekiosk.github.io/HelloVue/"
+                "video_url": ""
             }
         ]
     }
