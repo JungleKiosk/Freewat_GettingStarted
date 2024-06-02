@@ -50,8 +50,7 @@ export default {
                                     class="txt_primary color_txt_link">FREEWAT-Q3</span></a> plugin for QGIS, organized
                             by the <a href="https://www.santannapisa.it/it/istituto/produzioni-vegetali"
                                 target="_blank"><span class="txt_primary color_txt_link">Scuola Superiore Sant’Anna –
-                                    Institute of Crop Science</span> </a> is being held by Rudy Rossetto & Giacomo
-                            Vescovo, from May 9 to
+                                    Institute of Crop Science</span> </a> from May 9 to
                             17. <br>
                         </p>
                         <div class="link_lucas text-center py-2">
