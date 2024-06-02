@@ -45,7 +45,7 @@ export default {
                         <h1 class="card-title">{{ project.name }}</h1>
                         <p class="card-text">{{ project.desc_card }}</p>
                     </div>
-                    <img :src="getImagePath(project.image)" alt="project image" class="img_cards rounded-bottom-5" />
+                    <!-- <img :src="getImagePath(project.image)" alt="project image" class="img_cards rounded-bottom-5" /> -->
                 </div>
 
             </div>
