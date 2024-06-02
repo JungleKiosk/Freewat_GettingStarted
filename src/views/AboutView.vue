@@ -50,7 +50,7 @@ export default {
                                 href="https://prima-nexus-ness.org/" target="_blank"><span
                                     class="txt_primary color_txt_link">NEXUS-NESS</span> </a> project as a research
                             fellow
-                            in hydrogeological modeling and social media manager.</p>
+                            in hydrogeological modeling, back-end web developer and social media manager.</p>
                         <div class="col-12">
                             <img class="img_card rounded-4" src="../assets/img/join.png" alt="">
                         </div>
