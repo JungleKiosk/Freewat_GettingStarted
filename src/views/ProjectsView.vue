@@ -32,7 +32,7 @@ export default {
       <div class="col-lg-12">
         <h1 class="text-center mb-5 txt_title_thin">{{ project.name }}</h1>
         <p class="text-center">{{ project.num_tutorial }}</p>
-        <p class="text-center">It is recommended before watching the Tutoial videos read the recommendations below 👇</p>
+        <p class="text-center">It is recommended, before watching the Tutoial video, to read the recommendations below 👇</p>
         <div class="row py-5 justify-content-center">
           <div class="col-12 col-lg-4 col-md-4 col-sm-6 mb-5" v-for="tutorial in project.tutorials" :key="tutorial.id">
             <div class="card text-left rounded-5 bg-dark text_cards shadow_cards_t">

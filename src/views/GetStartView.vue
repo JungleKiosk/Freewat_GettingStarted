@@ -32,13 +32,13 @@ export default {
 <template>
     <div id="my_proj" class="container p-5">
         <div class="row align-items-center justify-content-center">
-            <div class="col-lg-12 text-center">
+            <div class="col-8 text-center">
                 <h1 class="txt_title_thin">Tutorials</h1>
                 <p class="txt_proj">
                     Click on and go to the summary and video tutorials
                 </p>
                 <div class="row justify-content-center">
-                    <div :to="`/project/${project.id}`" class="col-12 col-lg-6 col-md-4" v-for="project in projects"
+                    <div :to="`/project/${project.id}`" class="col-8" v-for="project in projects"
                         :key="project.id" @click="router.push(`/project/${project.id}`)">
                         <div class="card rounded-5 my-4 bg-dark text_cards shadow_cards">
                             <div class="card-body">
