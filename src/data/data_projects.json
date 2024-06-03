@@ -13,35 +13,35 @@
                 "img_tutorial": "tutorials/t0/t0_install.png",
                 "title": "1.Install FREEWAT",
                 "desc": "Learn how to install FREEWAT in QGIS.",
-                "video_url": "https://youtu.be/YRP2giQ8LOQ"
+                "video_url": "https://youtu.be/YRP2giQ8LOQ?si=48NU9oMqjkCPMUul"
             },
             {
                 "id": 1,
                 "img_tutorial": "tutorials/t0/t0_wd.png",
                 "title": "2.Work Directory",
                 "desc": "How to organize the project work directory.",
-                "video_url": "https://youtu.be/2H8_nB52F2U"
+                "video_url": "https://youtu.be/2H8_nB52F2U?si=OKxu52iaBR0_TsNj"
             },
             {
                 "id": 2,
                 "img_tutorial": "tutorials/t0/t0_model.png",
                 "title": "3.Create Model",
                 "desc": "How to organize the project work directory.",
-                "video_url": "https://youtu.be/X-wwCq5Hx3Q"
+                "video_url": "https://youtu.be/TDgCnpIeitA?si=65zDweSxQvg5gjfT"
             },
             {
                 "id": 3,
                 "img_tutorial": "tutorials/t0/t0_run.png",
                 "title": "4.Run Model",
                 "desc": "How to organize the project work directory.",
-                "video_url": "https://youtu.be/TDgCnpIeitA"
+                "video_url": "https://youtu.be/X-wwCq5Hx3Q?si=atvd4Kvbr1AMc5Ub"
             },
             {
                 "id": 4,
                 "img_tutorial": "tutorials/t0/t0_tif.png",
                 "title": "5.View Outputs",
                 "desc": "How to organize the project work directory.",
-                "video_url": "https://youtu.be/RtHnPqnhHNI"
+                "video_url": "https://youtu.be/RtHnPqnhHNI?si=PL2axYXHHtXT4ZVX"
             }
         ]
     }
