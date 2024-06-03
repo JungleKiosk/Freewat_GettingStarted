@@ -37,7 +37,7 @@ export default {
             Click on and go to the summary and video tutorials
         </p>
         <div class="row justify-content-center text-center">
-            <div :to="`/project/${project.id}`" class="col-12" v-for="project in projects" :key="project.id"
+            <div :to="`/project/${project.id}`" class="col-12 col-lg-8" v-for="project in projects" :key="project.id"
                 @click="router.push(`/project/${project.id}`)">
                 <div class="card rounded-5 my-4 bg-dark text_cards shadow_cards">
                     <div class="card-body">

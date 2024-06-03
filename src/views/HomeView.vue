@@ -54,7 +54,7 @@ export default {
                             17. <br>
                         </p>
                         <div class="link_lucas text-center py-2">
-                            <a href="http://www.freewat.eu/" class="btn txt_title_thin zoom-effect lucas_link"
+                            <a href="https://prima-nexus-ness.org/science-tools/freewat/" class="btn txt_title_thin zoom-effect lucas_link"
                                 target="_blank"><strong>FREEWAT for NEXUS-NESS</strong></a>
                         </div>
 
